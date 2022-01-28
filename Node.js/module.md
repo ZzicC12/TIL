@@ -23,7 +23,7 @@
 2. 캐시된 모듈이 있을 경우 캐시된 모듈 사용
 3. 빈 객체 리터럴을 통해 초기화 된 exports 속성을 갖는 module 객체 생성
 
-```
+```javascript
 Module {
   exports: {},
 }
