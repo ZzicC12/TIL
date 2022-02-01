@@ -1,10 +1,13 @@
 # TIL
 
+## JavaScript
+
+1. [promise](https://github.com/ZzicC12/TIL/blob/main/JavaScript/promise.md)
+2. [async, await](https://github.com/ZzicC12/TIL/blob/main/JavaScript/async.md)
+
 ## Node.js
 
 1. [Node.js의 모듈 시스템](https://github.com/ZzicC12/TIL/blob/main/Node.js/module.md)
-2. [promise](https://github.com/ZzicC12/TIL/blob/main/Node.js/promise.md)
-3. [async, await](https://github.com/ZzicC12/TIL/blob/main/Node.js/async.md)
 
 ## Browser
 
