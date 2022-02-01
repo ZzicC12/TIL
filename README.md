@@ -2,8 +2,9 @@
 
 ## JavaScript
 
-1. [promise](https://github.com/ZzicC12/TIL/blob/main/JavaScript/promise.md)
-2. [async, await](https://github.com/ZzicC12/TIL/blob/main/JavaScript/async.md)
+1. [this](https://github.com/ZzicC12/TIL/blob/main/JavaScript/this.md)
+2. [promise](https://github.com/ZzicC12/TIL/blob/main/JavaScript/promise.md)
+3. [async, await](https://github.com/ZzicC12/TIL/blob/main/JavaScript/async.md)
 
 ## Node.js
 
