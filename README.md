@@ -2,9 +2,11 @@
 
 ## JavaScript
 
-1. [this](https://github.com/ZzicC12/TIL/blob/main/JavaScript/this.md)
-2. [promise](https://github.com/ZzicC12/TIL/blob/main/JavaScript/promise.md)
-3. [async, await](https://github.com/ZzicC12/TIL/blob/main/JavaScript/async.md)
+1. [var, let, const](https://github.com/ZzicC12/TIL/blob/main/JavaScript/variable.md)
+2. [this](https://github.com/ZzicC12/TIL/blob/main/JavaScript/this.md)
+3. [promise](https://github.com/ZzicC12/TIL/blob/main/JavaScript/promise.md)
+4. [async, await](https://github.com/ZzicC12/TIL/blob/main/JavaScript/async.md)
+5. [실행 컨텍스트](https://github.com/ZzicC12/TIL/blob/main/JavaScript/execution_context.md)
 
 ## Node.js
 
@@ -25,3 +27,6 @@
 1. [불변성에 대해서](https://github.com/ZzicC12/TIL/blob/main/React/immutable.md)
 
 ## CS
+
+1. [프로세스와 스레드](https://github.com/ZzicC12/TIL/blob/main/React/process_thread.md)
+2. [클라우드 컴퓨팅](https://github.com/ZzicC12/TIL/blob/main/React/cloud.md)
