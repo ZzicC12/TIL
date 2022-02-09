@@ -14,13 +14,18 @@
 
 ## Browser
 
-1. [이벤트 루프](https://github.com/ZzicC12/TIL/blob/main/Browser/event_loop.md)
-2. [DOM](https://github.com/ZzicC12/TIL/blob/main/Browser/dom.md)
+1. [DOM](https://github.com/ZzicC12/TIL/blob/main/Browser/dom.md)
+2. [이벤트 위임](https://github.com/ZzicC12/TIL/blob/main/Browser/event.md)
 3. [브라우저 렌더링 과정](https://github.com/ZzicC12/TIL/blob/main/Browser/render.md)
+4. [쿠키와 세션](https://github.com/ZzicC12/TIL/blob/main/Browser/cookie_session.md)
+5. [CORS](https://github.com/ZzicC12/TIL/blob/main/Browser/cors.md)
+6. [CSR과 SSR](https://github.com/ZzicC12/TIL/blob/main/Browser/csr_ssr_ssg.md)
+7. [이벤트 루프](https://github.com/ZzicC12/TIL/blob/main/Browser/event_loop.md)
 
 ## Network
 
 1. [TCP/IP 4계층](https://github.com/ZzicC12/TIL/blob/main/Network/tcp_ip.md)
+2. [HTTP](https://github.com/ZzicC12/TIL/blob/main/Network/http.md)
 
 ## React
 
