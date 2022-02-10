@@ -7,7 +7,7 @@
 
 ## this
 
-- this는 함수를 정의할 때가 아닌 런타임에서 호출될 때 동적으로 결정
+- this 바인딩은 **함수 호출 방식**에 의해 동적으로 결정됨
 
 ### 1. 전역 호출
 
@@ -21,6 +21,9 @@ console.log(this);
 | 엄격 모드 X |  window  | module.exports | undefined |
 
 ### 2. 일반 함수 호출
+
+- 일반 함수로 호출된 모든 함수(중첩 함수, 콜백 함수 포함) 내부의 this에는 전역 객체가 바인딩
+- 엄격 모드일 경우 : `undefined` 바인딩
 
 ```javascript
 function strict() {
@@ -44,7 +47,7 @@ console.log(print());
 
 ### 3. 메서드 호출
 
-- this는 메서드를 호출한 객체에 바인딩 된다.
+- this는 메서드를 소유한 객체가 아닌 **메서드를 호출한 객체**에 바인딩
 
 ```javascript
 const obj = {
@@ -56,7 +59,11 @@ const obj = {
 console.log(obj.method());
 ```
 
-### 4. call, apply
+### 4. 생성자 함수 호출
+
+- 생성자 함수 내부의 this에는 생성자 함수가 생성할 인스턴스가 바인딩
+
+### 5. call, apply
 
 - 함수를 호출하면서 첫번째 인수로 전달한 객체를 함수의 this에 바인딩
 
@@ -70,7 +77,7 @@ console.log(print.apply(obj));
 console.log(print.call(obj));
 ```
 
-### 5. bind
+### 6. bind
 
 - 첫번째 인수로 전달한 객체를 함수의 this에 바인딩
 - `call`, `apply`와 다르게 함수를 호출하지 않음
