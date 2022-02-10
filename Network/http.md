@@ -1,3 +1,10 @@
+## 인터넷과 웹
+
+- 인터넷 : 전 세계에 있는 컴퓨터들이 TCP/IP 프로토콜을 사용해서 데이터를 주고 받을 수있는 네트워크
+- 웹 : 인터넷을 통해 접근 가능한 웹페이지들을 연결하는 시스템
+  - HTTP, URL, HTML로 구성
+  - 인터넷 상에서 동작하는 하나의 서비스
+
 ## HTTP
 
 - Hypertext Transfer Protocol
@@ -6,5 +13,27 @@
 
 ### 특징
 
-1. stateless
-2. session cookie
+1. 클라이언트 서버 구조
+2. stateless : 이전의 상태를 기억하지 않음
+3. connectionless : 요청, 응답이 완료되면 연결을 끊음
+4. method
+
+- 안전 : 읽기 전용인지
+- 멱등 : 동일한 요청을 계속 했을 때 서버의 상태가 동일한지
+
+  |         |                    역할                     | 안전 | 멱등 | 캐시 |
+  | :-----: | :-----------------------------------------: | :--: | :--: | :--: |
+  |   GET   |                 리소스 획득                 |  O   |  O   |  O   |
+  |  POST   |                 엔티티 전송                 |  X   |  X   |  X   |
+  |   PUT   |              리소스 완전 대체               |  X   |  O   |  X   |
+  | DELETE  |                 리소스 삭제                 |  X   |  O   |  X   |
+  |  PATCH  |              리소스 부분 수정               |  X   |  X   |  X   |
+  |  HEAD   | GET 메서드로 요청했을 때 돌아올 헤더를 요청 |  O   |  O   |  O   |
+  | OPTIONS |        서버에서 지원하는 method 확인        |  O   |  O   |  X   |
+
+5. 응답 코드
+
+- 2XX : Success
+- 3XX : Redirection
+- 4XX : Client Error
+- 5XX : Server Error
