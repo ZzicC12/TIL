@@ -7,6 +7,8 @@
 3. [promise](https://github.com/ZzicC12/TIL/blob/main/JavaScript/promise.md)
 4. [async, await](https://github.com/ZzicC12/TIL/blob/main/JavaScript/async.md)
 5. [실행 컨텍스트](https://github.com/ZzicC12/TIL/blob/main/JavaScript/execution_context.md)
+6. [함수](https://github.com/ZzicC12/TIL/blob/main/JavaScript/function.md)
+7. [프로그래밍 패러다임](https://github.com/ZzicC12/TIL/blob/main/JavaScript/paradigm.md)
 
 ## Node.js
 
@@ -33,5 +35,5 @@
 
 ## CS
 
-1. [프로세스와 스레드](https://github.com/ZzicC12/TIL/blob/main/React/process_thread.md)
-2. [클라우드 컴퓨팅](https://github.com/ZzicC12/TIL/blob/main/React/cloud.md)
+1. [프로세스와 스레드](https://github.com/ZzicC12/TIL/blob/main/CS/process_thread.md)
+2. [클라우드 컴퓨팅](https://github.com/ZzicC12/TIL/blob/main/CS/cloud.md)
