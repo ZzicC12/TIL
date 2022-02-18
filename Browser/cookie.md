@@ -38,4 +38,4 @@
 
 - Header에 명시된 알고리즘으로 암호화
   - 비밀키(서버에 저장)
-  - Base64URL로 인코딩 된 Header + "." + Base64URL로 인코딩 된 Payload를
+  - Base64URL로 인코딩 된 Header + "." + Base64URL로 인코딩 된 Payload
