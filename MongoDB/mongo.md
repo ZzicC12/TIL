@@ -23,4 +23,3 @@
 
 - 클라우드 DB
 - MongoDB Shell(mongosh)로 원격 접속 가능
-- m001-mongodb-basics

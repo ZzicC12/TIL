@@ -4,31 +4,63 @@
 - use DB_NAME
 - show collections
 
-## Find
+## Create
 
-- db.COLLECTION_NAME.find()
-  - count()
-  - pretty()
-  - it : iterate
+### method
 
-## Insert
+- [insertOne()](https://docs.mongodb.com/manual/reference/method/db.collection.insertOne/#mongodb-method-db.collection.insertOne)
+- [insertMany()](https://docs.mongodb.com/manual/reference/method/db.collection.insertMany/#mongodb-method-db.collection.insertMany)
 
-- db.COLLECTION_NAME.insert()
+### ordered
+
 - `_id` field 중복 -> `duplicate key error`
 - 여러 document 생성 시 `duplicate key error` 발생한 경우 -> 이후 작업 중지
   - `{ "ordered": false }` 옵션 사용 시 -> 에러가 발생하지 않는 document를 모두 생성
 
+## Read
+
+### method
+
+- [find(query, projection)](https://docs.mongodb.com/manual/reference/method/db.collection.find/#mongodb-method-db.collection.find)
+
+### query
+
+- 여러 field에 대한 조건 지정 시 암시적으로 and 적용
+  - `db.inventory.find( { "status": "A", "qty": { $lt: 30 } } )`
+
+### projection
+
+- 지정한 field만 반환
+  - `{ <field>: 1 }` : 포함
+  - `{ <field>: 0 }` : 제외
+  - `db.inventory.find( { "status": "A" }, { "item": 1, "status": 1, } )`
+
+### array field
+
+- value가 array일 경우 : 해당 array와 정확히 일치하는 document 검색
+  - `db.inventory.find( { "tags": ["red", "blank"] } )`
+- value가 element일 경우 : 해당 element를 포함하는 모든 document 검색
+  - `db.inventory.find( { "tags": "red" } )`
+- `$all` 사용 : 해당 element를 포함하는 모든 document 검색
+  - `db.inventory.find( { "tags": { $all: ["red", "blank"] } } )`
+
 ## Update
 
-- db.COLLECTION_NAME.updateOne()
-- db.COLLECTION_NAME.updateMany()
-- operators
-  - $inc : 지정한 양만큼 증가
-  - $set : field가 없다면 생성
-  - $push : array field에 추가
+### method
+
+- [updateOne(filter, replacement, options)](https://docs.mongodb.com/manual/reference/method/db.collection.updateOne/#mongodb-method-db.collection.updateOne)
+- [updateMany(filter, replacement, options)](https://docs.mongodb.com/manual/reference/method/db.collection.updateMany/#mongodb-method-db.collection.updateMany)
+- [replaceOne(filter, replacement, options)](https://docs.mongodb.com/manual/reference/method/db.collection.replaceOne/#mongodb-method-db.collection.replaceOne)
+
+### operators
+
+- $inc : 지정한 양만큼 증가
+- $set : field가 없다면 생성
+- $push : array field에 추가
 
 ## Delete
 
-- db.COLLECTION_NAME.deleteOne()
-- db.COLLECTION_NAME.deleteMany()
-- db.COLLECTION_NAME.drop()
+### method
+
+- [deleteOne()](https://docs.mongodb.com/manual/reference/method/db.collection.deleteOne/#mongodb-method-db.collection.deleteOne)
+- [deleteMany()](https://docs.mongodb.com/manual/reference/method/db.collection.deleteMany/#mongodb-method-db.collection.deleteMany)
