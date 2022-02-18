@@ -44,3 +44,4 @@
 
 1. [MongoDB](https://github.com/ZzicC12/TIL/blob/main/MongoDB/mongo.md)
 2. [MongoDB Shell](https://github.com/ZzicC12/TIL/blob/main/MongoDB/mongosh.md)
+3. [operator](https://github.com/ZzicC12/TIL/blob/main/MongoDB/operator.md)

@@ -14,7 +14,7 @@
 ### ordered
 
 - `_id` field 중복 -> `duplicate key error`
-- 여러 document 생성 시 `duplicate key error` 발생한 경우 -> 이후 작업 중지
+- 여러 document 생성할 때 `duplicate key error` 발생한 경우 -> 이후 작업 중지
   - `{ "ordered": false }` 옵션 사용 시 -> 에러가 발생하지 않는 document를 모두 생성
 
 ## Read
@@ -25,7 +25,11 @@
 
 ### query
 
-- 여러 field에 대한 조건 지정 시 암시적으로 and 적용
+- 암시적 eq 연산자 사용
+  - `db.inventory.find( { qty: { $eq: 20 } } )`
+  - `db.inventory.find( { qty: 20 } )`
+- 암시적 and 연산자 사용
+  - `db.inventory.find( { "$and": [ { "status": "A" }, { "qty": { $lt: 30 } } ] )`
   - `db.inventory.find( { "status": "A", "qty": { $lt: 30 } } )`
 
 ### projection
