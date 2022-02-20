@@ -27,7 +27,8 @@
 ## Network
 
 1. [TCP/IP 4계층](https://github.com/ZzicC12/TIL/blob/main/Network/tcp_ip.md)
-2. [HTTP](https://github.com/ZzicC12/TIL/blob/main/Network/http.md)
+2. [HTTP, HTTPS](https://github.com/ZzicC12/TIL/blob/main/Network/http.md)
+3. [REST](https://github.com/ZzicC12/TIL/blob/main/Network/rest.md)
 
 ## React
 
