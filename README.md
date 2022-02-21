@@ -21,7 +21,7 @@
 3. [브라우저 렌더링 과정](https://github.com/ZzicC12/TIL/blob/main/Browser/render.md)
 4. [쿠키, 세션, JWT](https://github.com/ZzicC12/TIL/blob/main/Browser/cookie.md)
 5. [CORS](https://github.com/ZzicC12/TIL/blob/main/Browser/cors.md)
-6. [CSR과 SSR](https://github.com/ZzicC12/TIL/blob/main/Browser/csr_ssr_ssg.md)
+6. [CSR, SSR, SSG](https://github.com/ZzicC12/TIL/blob/main/Browser/csr.md)
 7. [이벤트 루프](https://github.com/ZzicC12/TIL/blob/main/Browser/event_loop.md)
 
 ## Network
@@ -40,6 +40,9 @@
 2. [클라우드 컴퓨팅](https://github.com/ZzicC12/TIL/blob/main/CS/cloud.md)
 
 ## Database
+
+1. [SQL](https://github.com/ZzicC12/TIL/blob/main/Database/sql.md)
+1. [transaction](https://github.com/ZzicC12/TIL/blob/main/Database/transaction.md)
 
 ## MongoDB
 
