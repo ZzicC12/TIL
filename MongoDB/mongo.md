@@ -23,3 +23,19 @@
 
 - 클라우드 DB
 - MongoDB Shell(mongosh)로 원격 접속 가능
+
+## BASE
+
+### Basically Available
+
+- 가용성
+- 다수의 스토리지에 복사본을 저장
+
+### Soft state
+
+- 시스템의 상태는 시간이 지남에 따라 변할 수 있음
+- 분산 노드 간 업데이트는 데이터가 노드에 도달한 시점에 갱신
+
+### Eventually consistent
+
+- 일시적으로 비일관적인 상태가 되어도 결국 일관성이 있는 상태가 되는 성질
