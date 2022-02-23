@@ -1,5 +1,25 @@
 # TIL
 
+## Data Structure
+
+1. [배열](https://github.com/ZzicC12/TIL/blob/main/DataStructure/array.md)
+
+## CS
+
+1. [프로세스와 스레드](https://github.com/ZzicC12/TIL/blob/main/CS/process_thread.md)
+2. [클라우드 컴퓨팅](https://github.com/ZzicC12/TIL/blob/main/CS/cloud.md)
+
+## Database
+
+1. [SQL](https://github.com/ZzicC12/TIL/blob/main/Database/sql.md)
+1. [transaction](https://github.com/ZzicC12/TIL/blob/main/Database/transaction.md)
+
+## Network
+
+1. [TCP/IP 4계층](https://github.com/ZzicC12/TIL/blob/main/Network/tcp_ip.md)
+2. [HTTP, HTTPS](https://github.com/ZzicC12/TIL/blob/main/Network/http.md)
+3. [REST](https://github.com/ZzicC12/TIL/blob/main/Network/rest.md)
+
 ## JavaScript
 
 1. [var, let, const](https://github.com/ZzicC12/TIL/blob/main/JavaScript/variable.md)
@@ -24,25 +44,9 @@
 6. [CSR, SSR, SSG](https://github.com/ZzicC12/TIL/blob/main/Browser/csr.md)
 7. [이벤트 루프](https://github.com/ZzicC12/TIL/blob/main/Browser/event_loop.md)
 
-## Network
-
-1. [TCP/IP 4계층](https://github.com/ZzicC12/TIL/blob/main/Network/tcp_ip.md)
-2. [HTTP, HTTPS](https://github.com/ZzicC12/TIL/blob/main/Network/http.md)
-3. [REST](https://github.com/ZzicC12/TIL/blob/main/Network/rest.md)
-
 ## React
 
 1. [불변성에 대해서](https://github.com/ZzicC12/TIL/blob/main/React/immutable.md)
-
-## CS
-
-1. [프로세스와 스레드](https://github.com/ZzicC12/TIL/blob/main/CS/process_thread.md)
-2. [클라우드 컴퓨팅](https://github.com/ZzicC12/TIL/blob/main/CS/cloud.md)
-
-## Database
-
-1. [SQL](https://github.com/ZzicC12/TIL/blob/main/Database/sql.md)
-1. [transaction](https://github.com/ZzicC12/TIL/blob/main/Database/transaction.md)
 
 ## MongoDB
 
