@@ -2,7 +2,7 @@
 
 ## Data Structure
 
-1. [배열](https://github.com/ZzicC12/TIL/blob/main/DataStructure/array.md)
+1. [배열과 연결 리스트](https://github.com/ZzicC12/TIL/blob/main/DataStructure/array_list.md)
 
 ## CS
 
