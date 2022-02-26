@@ -49,6 +49,10 @@
 
 1. [불변성에 대해서](https://github.com/ZzicC12/TIL/blob/main/React/immutable.md)
 
+## React Native
+
+1. [rn의 작동 원리](https://github.com/ZzicC12/TIL/blob/main/ReactNative/rn.md)
+
 ## MongoDB
 
 1. [MongoDB](https://github.com/ZzicC12/TIL/blob/main/MongoDB/mongo.md)
