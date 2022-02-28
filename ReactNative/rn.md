@@ -1,7 +1,3 @@
-## React Native
-
-- rn
-
 ## Threading Model
 
 ### Main Thread
