@@ -35,3 +35,16 @@
 ### Git Repository
 
 - 파일의 변경 내역을 저장하는 영역
+
+## merge
+
+### fast-forward
+
+- 새로운 branch를 생성 후 master branch에 변동 사항이 없는 경우
+- master branch의 포인터를 이동하는 작업만으로 merge 완료
+- 커밋이 생성되지 않음
+  - `--no-ff` 옵션 사용하여 커밋 생성 가능
+
+### 3-way
+
+- fast-forward 불가능한 경우 두 branch의 커밋을 합하여 새로운 커밋을 생성
