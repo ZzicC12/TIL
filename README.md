@@ -17,11 +17,6 @@
 3. [CI, CD](https://github.com/ZzicC12/TIL/blob/main/CS/ci.md)
 4. [git](https://github.com/ZzicC12/TIL/blob/main/CS/git.md)
 
-## Database
-
-1. [SQL](https://github.com/ZzicC12/TIL/blob/main/Database/sql.md)
-1. [transaction](https://github.com/ZzicC12/TIL/blob/main/Database/transaction.md)
-
 ## Data Structure
 
 1. [배열과 연결 리스트](https://github.com/ZzicC12/TIL/blob/main/DataStructure/array_list.md)
@@ -36,12 +31,6 @@
 6. [함수](https://github.com/ZzicC12/TIL/blob/main/JavaScript/function.md)
 7. [프로그래밍 패러다임](https://github.com/ZzicC12/TIL/blob/main/JavaScript/paradigm.md)
 
-## MongoDB
-
-1. [MongoDB](https://github.com/ZzicC12/TIL/blob/main/MongoDB/mongo.md)
-2. [MongoDB Shell](https://github.com/ZzicC12/TIL/blob/main/MongoDB/mongosh.md)
-3. [operator](https://github.com/ZzicC12/TIL/blob/main/MongoDB/operator.md)
-
 ## Network
 
 1. [TCP/IP 4계층](https://github.com/ZzicC12/TIL/blob/main/Network/tcp_ip.md)
@@ -52,11 +41,8 @@
 
 1. [Node.js의 모듈 시스템](https://github.com/ZzicC12/TIL/blob/main/Node.js/module.md)
 2. [webpack](https://github.com/ZzicC12/TIL/blob/main/Node.js/webpack.md)
+3. [monorepo](https://github.com/ZzicC12/TIL/blob/main/Node.js/monorepo.md)
 
 ## React
 
 1. [불변성에 대해서](https://github.com/ZzicC12/TIL/blob/main/React/immutable.md)
-
-## React Native
-
-1. [rn의 작동 원리](https://github.com/ZzicC12/TIL/blob/main/ReactNative/rn.md)
