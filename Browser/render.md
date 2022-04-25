@@ -17,14 +17,18 @@
 - DOM과 CSSOM을 결합하여 렌더 트리 생성
 - 렌더링되지 않는 노드는 제외
 
-### 4. Layout
+### 4. Layout (Reflow)
 
 - 렌더 트리, 뷰포트를 바탕으로 요소들의 위치와 크기를 계산
 
-### 5. Paint
+### 5. Paint (Repaint)
 
-- 성능 개선을 위해 요소들을 레이어별로 분류
+- layer 별로 화면을 그림
 
 ### 6. Composition
 
-- 레이어 순서대로 렌더
+- layer 순서대로 렌더
+
+## 최적화
+
+1. composition만 발생하는 CSS 속성 사용
