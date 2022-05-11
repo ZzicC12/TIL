@@ -46,3 +46,4 @@
 ## React
 
 1. [불변성에 대해서](https://github.com/ZzicC12/TIL/blob/main/React/immutable.md)
+2. [proxy 설정](https://github.com/ZzicC12/TIL/blob/main/React/proxy.md)
